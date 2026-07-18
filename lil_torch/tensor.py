@@ -1,5 +1,6 @@
 import numpy as np
-from .autograd.ops_builtins import Context, Add, Mul, MatMul, Neg, Reciprocal, Tanh
+from lil_torch.autograd.ops_builtins import Add, Mul, MatMul, Neg, Reciprocal, Tanh
+from lil_torch.autograd.function import Context
 
 # uses NumPy as a backend 
 class Tensor:

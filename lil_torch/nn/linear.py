@@ -1,7 +1,7 @@
 import numpy as np
 from .module import Parameter, Module
 
-class Linear:
+class Linear(Module):
     def __init__(self, in_features, out_features, bias=True):
         super().__init__()
         bound = np.sqrt(in_features)
